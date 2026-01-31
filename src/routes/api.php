@@ -6,11 +6,11 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 | API Routes
 |--------------------------------------------------------------------------
-| API ini dibuat berdasarkan BRD.md dan SLR.md
+| Dibuat berdasarkan BRD.md dan SLR.md
 | Sistem: Aplikasi Web Perencanaan Bisnis
 */
 
-// API Profil Perusahaan / Sistem
+// API Profil Sistem / Perusahaan
 Route::get('/company', function () {
     return response()->json([
         'name' => 'Business Planning System',
